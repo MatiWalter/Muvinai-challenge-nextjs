@@ -1,0 +1,1 @@
+export { AptoMedico } from './AptoMedico';
