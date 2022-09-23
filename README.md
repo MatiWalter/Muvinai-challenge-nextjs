@@ -1,39 +1,28 @@
-# Mantine Next Template
+# Muvinai Challenge
 
-Get started with Mantine + Next with just a few button clicks.
-Click `Use this template` button at the header of repository or [follow this link](https://github.com/mantinedev/mantine-next-template/generate) and
-create new repository with `@mantine` packages. Note that you have to be logged in to GitHub to generate template.
+[Live demo](https://muvinai-challenge-nextjs.vercel.app/)
 
-## Features
+## Pasos a seguir
 
-This template comes with several essential features:
+```cmd
+  git clone https://github.com/MatiWalter/Muvinai-challenge-nextjs.git
+  cd Muvinai-challenge-nextjs
+  npm install
+  npm run dev
+```
 
-- Server side rendering setup for Mantine
-- Color scheme is stored in cookie to avoid color scheme mismatch after hydration
-- Storybook with color scheme toggle
-- Jest with react testing library
-- ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
+## Scripts disponibles
 
-## npm scripts
+### `$ npm run dev`
 
-### Build and dev scripts
+Runs the app in development mode.
+Open <http://localhost:3000> to view it in the browser.
 
-- `dev` – start dev server
-- `build` – bundle application for production
-- `export` – exports static website to `out` folder
-- `analyze` – analyzes application bundle with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+### `$ npm run build`
 
-### Testing scripts
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- `typecheck` – checks TypeScript types
-- `lint` – runs ESLint
-- `prettier:check` – checks files with Prettier
-- `jest` – runs jest tests
-- `jest:watch` – starts jest watch
-- `test` – runs `jest`, `prettier:check`, `lint` and `typecheck` scripts
+### `$ npm run serve`
 
-### Other scripts
-
-- `storybook` – starts storybook dev server
-- `storybook:build` – build production storybook bundle to `storybook-static`
-- `prettier:write` – formats all files with Prettier
+Locally preview production build.
